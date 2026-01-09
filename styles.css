@@ -1,131 +1,81 @@
-.fondo1 {
-  background-image: url("img/fullsize/fondo-eladio1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 body {
-  background-image: url("img/fullsize/fondo-eladio-2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.titulo {
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  font-family: "BBH Sans Bartle", sans-serif;
-  width: 700px;
-  height: 50px;
-  background-color: #008f00;
-  border-radius: 10px;
-  border: 2px solid #ffffff;
-  box-shadow: 10px 12px 14px 2px rgba(0, 0, 0, 0.47); /* sombra a las imagenes*/
-  padding-top: 2px; /*separa el texto por arriba(top)*/
-}
-
-.divtitulo {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    font-family: "BBH Sans Bartle", Arial, sans-serif;
+    background-image: url("img/fullsize/fondo-eladio-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
 }
 
 .container {
-  margin: 100px;
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
-
-.imgenes-pequenas {
-  width: 300px;
-  height: 300px;
-  border: 5px solid #000000;
-  border-radius: 10px;
-}
-
-.titulo-cancion {
-  margin-top: 10px;
-  color: #ffffff;
-  font-family: "BBH Sans Bartle", sans-serif;
-  font-weight: 400;
-  text-align: center;
-  padding-top: 2%; /*separa el texto por arriba(top)*/
-  width: 150px;
-  height: 25px;
-  background-color: #000000;
-  border-radius: 10px;
-  border: 2px solid #ffffff;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.texto {
-  margin: 100px auto 50px auto;
-  padding: 20px;
-  width: 500px;
-  height: auto;
-  border-radius: 10px;
-  border: 2px solid #000000;
-  background-color: white;
+.imgenes-pequenas {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .item:hover {
-  transform: scale(1.2); /* Aumenta el tamaño al 120% */
+    transform: scale(1.2);
 }
 
-img {
-  box-shadow: 10px 12px 14px 2px rgba(0, 0, 0, 0.47);
-} /* sombra a las imagenes*/
-
-.container2 {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  border-radius: 10px;
-  border: 2px solid #ffffff;
-  margin: 50px 100px 100px 100px;
-  background-color: rgb(255, 106, 198);
-}
-
-.foto {
-  margin: 100px 100px 100px 100px;
-}
-
-.centrar {
-  display: flex;
-  justify-content: center;
-}
-
-.botones {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  border-radius: 10px;
-  border: 2px solid #ffffff;
-  width: 150px;
-  height: 50px;
-  background-color: #008a8f;
-  color: #ffffff;
-  padding-top: 10px;
-}
-
-
-.botones2 {
-  display: flex;
-  justify-content: center;
-  gap: 200px;
-  margin-bottom: 50px;
+.titulo {
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2%;
+    width: 150px;
+    height: 25px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+.header1 {
+    display: flex;
+    justify-content: center;
+    background-color: #000000e3;
+    color: white;
+    padding: 0 300px 0 300px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.pie {
+    display: flex;
+    background-color: #000000e3;
+    justify-content: center;
+    padding: 20px 300px 20px 300px;
+}
+
+.pie h3 {
+    width: 200px;
+    padding: 0 0 0 0;
 }
